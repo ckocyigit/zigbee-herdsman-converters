@@ -9272,6 +9272,7 @@ export const definitions: DefinitionWithExtend[] = [
         extend: [m.illuminance(), m.battery()],
     },
     {
+        fingerprint: tuya.fingerprint("TS0210", ["_TZ32101000000_5oy7cysk"]),
         zigbeeModel: ["TS0210"],
         model: "TS0210",
         vendor: "Tuya",
